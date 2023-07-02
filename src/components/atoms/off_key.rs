@@ -8,7 +8,7 @@ pub struct Props {
     
 }
 
-#[derive(PartialEq)]
+#[derive(PartialEq, Copy, Clone,)]
 pub enum Opacity {
     Normal,
     Off,    
